@@ -1,0 +1,26 @@
+import org.gradle.api.publish.maven.MavenPublication
+
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+group = 'com.eekboom'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:3.8.1'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}

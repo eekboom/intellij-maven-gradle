@@ -14,6 +14,17 @@
         <option name="resolveModulePerSourceSet" value="false" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../my-lib" />
+        <option name="gradleHome" value="$USER_HOME$/apps/gradle-2.12" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../my-lib" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
